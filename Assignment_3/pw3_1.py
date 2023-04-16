@@ -25,14 +25,13 @@ def getAverage(type):
 
 def printResults():
     print("Cereal type: Cold")
-    print("The lowest cereals rating value: ", lowestCold, "Cereals name: ", lowestColdName)
-    print("The highest cereals rating value: ", highestCold, "Cereals name: ", highestColdName)
+    print("The lowest cereals rating value: ", lowestCold, "\tCereals name: ", lowestColdName)
+    print("The highest cereals rating value: ", highestCold, "\tCereals name: ", highestColdName)
     print("Average cereals rating value: ", getAverage("C"), '\n')
     print("Cereal type: Hot")
-    print("The lowest cereals rating value", lowestHot, "Cereals name:", lowestHotName)
-    print("The highest cereals rating value: ", highestHot, "Cereals name: ", highestHotName)
+    print("The lowest cereals rating value", lowestHot, "\tCereals name:", lowestHotName)
+    print("The highest cereals rating value: ", highestHot, "\tCereals name: ", highestHotName)
     print("Average cereals rating value: ", getAverage("H"))
-
 
 filename = input("Enter file name: ")
 with open(filename, 'r') as f:
